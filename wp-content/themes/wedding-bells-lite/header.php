@@ -122,7 +122,7 @@ wp_reset_postdata(); ?>
           <p class="desc font-white">“In the end, it's not the years in your life that count. It's the life in your years.”</p>
           <p class="desc font-white"><i>– Abraham Lincoln</i></p>
           
-          <div id="normal-countdown" data-date="2022/01/14"></div>
+          <div id="normal-countdown" data-date="2023/01/14"></div>
           
           <a class="notify-btn" href="#rvsp">RSVP</a>
           
