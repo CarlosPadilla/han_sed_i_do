@@ -15,7 +15,7 @@ services:
   wordpress:
     depends_on:
       - db
-    image: wordpress:5.1.1-php7.3-apache
+    image: wordpress:6.0.1-php7.4-apache
     ports:
       - "8080:80"
     restart: always
@@ -23,8 +23,6 @@ services:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
-      WP_HOME: https://wedding.caps.ddns.net
-      WP_SITEURL: https://wedding.caps.ddns.net
     working_dir: /var/www/html
     volumes:
       - ./wp-content:/var/www/html/wp-content
