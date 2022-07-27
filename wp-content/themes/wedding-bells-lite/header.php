@@ -122,7 +122,7 @@ wp_reset_postdata(); ?>
           <p class="desc font-white">“In the end, it's not the years in your life that count. It's the life in your years.”</p>
           <p class="desc font-white"><i>– Abraham Lincoln</i></p>
           
-          <div id="normal-countdown" data-date="2020/02/25"></div>
+          <div id="normal-countdown" data-date="2022/01/14"></div>
           
           <a class="notify-btn" href="#rvsp">RSVP</a>
           
@@ -189,7 +189,7 @@ wp_reset_postdata(); ?>
             </span>
 
             <span class="txt2">
-              Mango Farm, 22 Shield, Antipolo, 1870 Rizal
+            San Julián, Jalisco., Mexico
             </span>
           </div>
         </div>
@@ -201,11 +201,11 @@ wp_reset_postdata(); ?>
 
           <div class="flex-col size2">
             <span class="txt1 p-b-20">
-              Ceremony
+              Ceremonia
             </span>
 
             <span class="txt3">
-              3:00 PM
+              1:00 PM
             </span>
           </div>
         </div>
@@ -217,11 +217,11 @@ wp_reset_postdata(); ?>
 
           <div class="flex-col size2">
             <span class="txt1 p-b-20">
-              Reception
+              Recepcion
             </span>
 
             <span class="txt3">
-              6:00 PM
+              4:00 PM
             </span>
           </div>
         </div>
@@ -240,11 +240,11 @@ wp_reset_postdata(); ?>
                   <?php $queryvar = new WP_Query('page_id='.absint(get_theme_mod('welcome_page',true)) ); ?>        
                           <?php while( $queryvar->have_posts() ) : $queryvar->the_post(); ?>                                      
                            <div class="welcome-content">
-                              <h3>The Wedding Couple</h3>
+                              <h3>Los novios</h3>
 
                               <div class="hsid-break-line">❤️❤️❤️</div>
-                              <div class="hsid"><i>I can't wait to see you walking in the aisle...</i></div>
-                              <div class="hsid hsid-padding hsid-break">And hold my hand to be my forever</div>
+                              <div class="hsid"><i>No puedo esperar a verte caminando hacia el altar...</i></div>
+                              <div class="hsid hsid-padding hsid-break">Y tomar tu mano para para siempre</div>
                               <div class="clear"></div>
 
                           </div>          
